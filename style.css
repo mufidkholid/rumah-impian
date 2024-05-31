@@ -1,0 +1,542 @@
+:root {
+  --pr-color: #048853;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3fff4;
+}
+* {
+  z-index: 2;
+}
+/* Navbar style */
+.navbar {
+  z-index: 3;
+}
+/* Navbar Color */
+.nav-color {
+  background-color: #007245;
+  transition: all ease-in-out 0.4s;
+  -webkit-transition: all ease-in-out 0.4s;
+  -moz-transition: all ease-in-out 0.4s;
+  -ms-transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
+}
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+.accsent-img {
+  z-index: 1;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 16px;
+}
+.nav-link.active {
+  font-weight: 700;
+}
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: white;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Hero */
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), black);
+  height: 100vh;
+  width: 100%;
+}
+.img-hero {
+  height: 100%;
+  z-index: 1;
+}
+.hero-tagline h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+.hero-tagline p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--pr-color);
+  background-color: white;
+}
+/* Layanan Section */
+#layanan {
+  padding: 100px 0;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+.sub-title {
+  font-size: 18px;
+  color: black;
+}
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -ms-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+}
+.card-layanan h3 {
+  color: var(--pr-color);
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+.card-layanan p {
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+
+/* Lyanan Hover */
+#layanan:hover {
+  padding: 100px 0;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+.sub-title:hover {
+  font-size: 18px;
+  color: black;
+}
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background: linear-gradient(160deg, var(--pr-color), black);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+.card-layanan:hover .circle-icon {
+  background-color: white;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+.card-layanan:hover h3 {
+  color: white;
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+}
+.card-layanan:hover p {
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+/* Search section */
+#search {
+  background-image: url(img/Img-search.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#search h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+#search p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.input-cari:focus {
+  border: none;
+}
+.input-cari .button-secondary {
+  width: 200px;
+  height: 75px;
+  background-size: rgba(255, 255, 255, 0.8);
+  color: var(--pr-color);
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0 0 0 10px;
+  -webkit-border-radius: 0 0 0 10px;
+  -moz-border-radius: 0 0 0 10px;
+  -ms-border-radius: 0 0 0 10px;
+  -o-border-radius: 0 0 0 10px;
+}
+.input-cari .button-primary {
+  height: 75px;
+  background-color: var(--pr-color);
+  color: white;
+  border: none;
+  font-size: 36px;
+  font-weight: 500;
+  border-radius: 0 10px 0 10px;
+  -webkit-border-radius: 0 10px 0 10px;
+  -moz-border-radius: 0 10px 0 10px;
+  -ms-border-radius: 0 10px 0 10px;
+  -o-border-radius: 0 10px 0 10px;
+}
+.input-cari .asu {
+  background-color: #fff;
+}
+.nav-tabs {
+  border: none;
+}
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 0 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  -ms-border-radius: 0 0 0 0;
+  -o-border-radius: 0 0 0 0;
+}
+.nav-tabs .nav-link.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: var(--pr-color);
+  border-radius: 0 9px 0 0;
+  -webkit-border-radius: 0 9px 0 0;
+  -moz-border-radius: 0 9px 0 0;
+  -ms-border-radius: 0 9px 0 0;
+  -o-border-radius: 0 9px 0 0;
+  font-weight: 500;
+}
+.nav-tabs .nav-link {
+  color: black;
+  border: none;
+}
+/* Rekomendasi Section */
+.card {
+  height: 460px;
+  border: none;
+  width: 95%;
+}
+.card-body h4 {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0.8rem;
+}
+.card-body p {
+  color: #141414;
+  font-weight: 400;
+  font-size: 14px;
+}
+.card:hover {
+  background: linear-gradient(170deg, var(--pr-color), #007245, #007245, black);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+.card:hover .card-body h4 {
+  color: white;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+.card:hover .card-body p {
+  color: white;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+.card-fasilitas {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+  background-color: white;
+}
+.card-fasilitas span {
+  font-weight: 500;
+  margin-top: 18px;
+  color: black;
+}
+.card-fasilitas p {
+  font-size: 12px;
+  color: black;
+}
+/* Card Fasilitas */
+.button-fitur {
+  width: 238px;
+  height: 63px;
+  background-color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+#fitur h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+.card-fitur h5 {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+}
+.card-fitur span {
+  color: white;
+  font-size: 14px;
+}
+.card-fitur h6 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.card-fitur button {
+  background-color: var(--pr-color);
+  color: white;
+  border: none;
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-fitur .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+.card-fitur .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+.button-arrow-left {
+  border: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--pr-color);
+  padding: 0;
+}
+.button-arrow-right {
+  border: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--pr-color);
+  padding: 0;
+}
+/* Kontak Form */
+#contact {
+  background-image: url(img/kontak-img.png);
+  margin-top: 158px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contact .container {
+  padding: 148px 0 148px 0;
+}
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+#contact h3 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+#contact h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 19px 0 14px 0;
+}
+.kontak a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 18px;
+  width: 332px;
+  display: inline-block;
+}
+.linkrumahimpian {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.card-contact {
+  width: 100%;
+  height: 445px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 52px 48px;
+}
+.card-contact h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #00985b;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.form-control {
+  background: #c4c4c4;
+  height: 75px !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.form-floating label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #717171;
+}
+.button-kontak {
+  width: 100%;
+  height: 75px;
+  background: #00985b;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 270px;
+  background: #000000;
+}
+.copyright {
+  bottom: 1%;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+footer a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.copyright p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
